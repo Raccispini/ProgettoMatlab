@@ -1,8 +1,12 @@
 function data =  getInfo(input)
-    page = getPageFromSearch(input);
-    data = getDataFromPage(page);
-    categories = getCategories(data);
-    updateDate = getLastThreeYears(data);
-    data = getCategoriesMax(updateDate);
+    try
+        page = getPageFromSearch(input);
+        data = getDataFromPage(page);
+        categories = getCategories(data);
+        updateDate = getLastThreeYears(data);
+        data = getCategoriesMax(updateDate);
 
+    catch Error
+        error()
+    end
 end
