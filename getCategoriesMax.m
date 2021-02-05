@@ -3,12 +3,12 @@ function data = getCategoriesMax(input)
 index = 1;
 maxD = year(datetime('now'))-1;
 
-
+a = size(input);
 maxC = ' ';
 maxQ = 'Q10';
 for i = maxD-2:maxD
     
-    for j = 1:length(input)
+    for j = 1:a(1)
        if i == str2double(cell2mat(input(j,2)))
           if compareQuartilio(cell2mat(input(j,3)),maxQ)
              maxQ = cell2mat(input(j,3));

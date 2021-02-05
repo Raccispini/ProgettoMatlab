@@ -13,6 +13,6 @@ n = str2double(n);
         disp(journals(i,1));
         disp(getInfo(journals(i,1)));
      catch Error
-         disp("Pagina non trovata")
+        disp("Pagina non trovata");
      end
 end

@@ -5,8 +5,8 @@ function data =  getInfo(input)
         categories = getCategories(data);
         updateDate = getLastThreeYears(data);
         data = getCategoriesMax(updateDate);
-
     catch Error
-        error()
+       error(""); 
     end
+   
 end
