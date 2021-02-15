@@ -1,4 +1,4 @@
-function journals = readXlsFile()
+function [journals,a] = readXlsFile()
 
 [dname,dpath] = uigetfile('D:\');
 disp(strcat(dpath,dname));
