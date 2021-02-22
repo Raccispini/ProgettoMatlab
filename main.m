@@ -1,5 +1,5 @@
 
-[jorunals,file] = readXlsFile();
+[journals,file] = readXlsFile();
 
 
  for i = 1:length(journals)
