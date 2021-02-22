@@ -11,7 +11,7 @@ Per usare il programma:
 2)Si inserisce il file *.xls
 3)In console viene restituito il risultato per ogni giornale e viene creato il file "Scheda_elaborata.xls" con i vari dati procesati.
 
-
+--------------------------------------------------------------------------------------
 
 
 
